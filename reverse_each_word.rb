@@ -3,7 +3,7 @@ def reverse_each_word(input)
   output.each do |x|
     x.reverse!
   end
-  output.join
+  output.join(" ")
   #output[0].each do
    # output[0].reverse!
   #end
