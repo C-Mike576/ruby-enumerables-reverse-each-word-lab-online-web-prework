@@ -1,7 +1,7 @@
 def reverse_each_word(input)
   
   input.split(/ /)
-  input.reverse!
+  input.each.reverse!
   p input
   
 end
