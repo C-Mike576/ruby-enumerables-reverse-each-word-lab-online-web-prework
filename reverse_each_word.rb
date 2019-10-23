@@ -1,5 +1,6 @@
 def reverse_each_word(input)
-  input.split(" ")
+  output = []
+  output << input.split(" ")
   #input.reverse!
   p input
   
