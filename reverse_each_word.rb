@@ -1,6 +1,6 @@
 def reverse_each_word(input)
   output = []
-  output << input.split(//)
+  output << input.split(/ /)
   
   p output
   #output[0].each do
