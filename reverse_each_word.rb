@@ -6,7 +6,8 @@ def reverse_each_word(input)
  # p output.join(" ")
   
   
-  output.collect { |x| x.reverse!
+  output.collect { |x| x.reverse!}
+  p output.join(" ")
   
   
   #output[0].each do
