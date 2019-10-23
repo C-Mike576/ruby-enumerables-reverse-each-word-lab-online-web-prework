@@ -1,9 +1,14 @@
 def reverse_each_word(input)
   output = input.split(/ /)
-  output.each do |x|
-    x.reverse!
-  end
-  p output.join(" ")
+  #output.each do |x|
+  #  x.reverse!
+  #end
+ # p output.join(" ")
+  
+  
+  output.collect { |x| x.reverse!
+  
+  
   #output[0].each do
    # output[0].reverse!
   #end
