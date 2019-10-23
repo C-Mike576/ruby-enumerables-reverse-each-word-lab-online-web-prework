@@ -1,5 +1,5 @@
 def reverse_each_word(input)
   output = []
-  input.to_ary
+  input.to_arr
   p input
 end
